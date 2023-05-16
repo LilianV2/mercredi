@@ -34,6 +34,14 @@
     gap: 1rem;
 }
 
+.iframe_video{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    height: 500px;
+    min-width: 700px;
+}
+
 .container{
     height: 100vh;
     width: 100%;
@@ -89,8 +97,8 @@ span{
 .box_header img{
     width: 40%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    object-fit: cover;
-    background-size: cover;
+    object-fit: contain;
+    background-size: auto;
 }
 
 .box_header:nth-child(even){
@@ -100,3 +108,24 @@ span{
 li {
     margin-bottom: 1rem;
 }
+
+.image {
+    height: 25rem;
+    width: 15rem;
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
