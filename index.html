@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>UPTO | 17-05-23</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="container">
+    <div class="top">
+        <h1>Qu'est ce que le <span>développement web</span></h1>
+        <p>Le développement web est l'ensemble des activités liées à la création de sites web et applications web, de la
+            maquette du site jusqu'à la mise en ligne,
+            en utilisant des langages de programmation, des technologies et des outils appropriés pour donner vie à des
+            expériences interactives sur Internet.</p>
+        <div class="iframe_video">
+            <iframe src="https://www.youtube.com/embed/xbEKui1k1j8" frameborder="0"></iframe>
+        </div>
+    </div>
+    <div class="infos-container">
+        <div class="box_header">
+            <div class="content_header">
+                <h2>Le <span>HTML</span>, la structure de tout projet</h2>
+                <p>Le HTML est la base de tout projet, c'est un langage de balisage utilisé pour décrire la structure et
+                    le contenu d'une page Web. Il fournit une base
+                    solide sur laquelle le développeur peut se concentrer afin de créer son site web en utilisant un
+                    ensemble de balises prédéfinies.
+                </p>
+                <p>
+                <ul>
+                    <li>&lt;!DOCTYPE html&gt;, la tout première balise qu'on voit dans un dossier, elle signifie que
+                        nous travaillons bien sur un fichier HTML.
+                    </li>
+                    <li>&lt;html&gt; : Elle définit l'élément racine du document HTML. Tout le contenu de la page Web se
+                        trouve à l'intérieur de cette balise.
+                    </li>
+                    <li>&lt;head&gt; : Elle contient les informations non visibles de la page web, telles que le titre
+                        de la page ou les liens vers les fichiers externes.
+                    </li>
+                    <li>&lt;body&gt; : Elle englobe tous le contennu visible de la page web : textes, images, les liens
+                        et autres.
+                    </li>
+                    <li>&lt;link&gt; : Elle contient le liens vers les fichiers externes.</li>
+                </ul>
+                </p>
+            </div>
+            <img src="images/image_1.png" alt="Image">
+        </div>
+        <div class="box_header">
+            <div class="content_header">
+                <h2>Architecture, les <span>balises</span> html</h2>
+                <p>
+                <ul>
+                    <li>La balise &lt;header&gt;, qui signifie "entête", est une balise dans laquelle nous allons mettre tout ce
+                        qui se tiendra en haut de la page, comme la barre de navigation par exemple.<br>
+                        La balise &lt;footer&gt; elle, représente le pied de page, tout ce qui sera tout en bas de la page,
+                        après le contenu principal.
+                    </li>
+                    <li>La balise &lt;section&gt;, celle qu'on utilisera pour englober de grosses parties de la page, elle est
+                        souvent utilisée comme conteneur, un peu comme une boîte.<br>
+                        La balise &lt;div&gt;, elle a la même utilité que la balise &lt;section&gt;, cependant elle sert surtout a
+                        englober les sous-parties, par exemple dans une &lt;section&gt;, si nous en avons besoin, nous y
+                        mettrons une div pour mieux structurer la page.
+                    </li>
+                    <li>La balise &lt;p&gt;, très simple, c'est une balise dans laquelle nous y mettrons du texte, "p" comme
+                        "paragraphe".<br>
+                        La balise &lt;span&gt; elle, est une balise servant à cibler une partie de texte spécifique qu'on
+                        voudrait changer (de couleur, ou de taille par exemple)
+                    </li>
+                    <li>Puis nous avons enfin la balise &lt;ul&gt;, suivi de la balise &lt;li&gt;, les listes, qui servent à ordonner certains de nos textes,
+                        nous pouvons les changer sous format de liste afin de mieux s'y retrouver lors de la lecture du
+                        site.
+                    </li>
+                </ul>
+                </p>
+            </div>
+            <img src="images/image_1.png" alt="Image">
+        </div>
+        <hr>
+        <div class="top">
+            <h1>Donner du style à son site facilement avec <span>CSS</span></h1>
+            <p>
+            <ul>
+                <li>Tout d'abord, les bases, savoir lier son fichier CSS à son fichier HTML. Grâce à la balise &lt;link&gt;,
+                    nous pouvons lier notre fichier CSS à notre fichier HTML afin de pouvoir modifier son style.
+                </li>
+                <li>En CSS, c'est très simple, il nous suffit simplement de cibler une balise HTML, &lt;p&gt; par exemple, puis
+                    lui donner des propriétés afin de changer sa couleur, sa taille ect...
+                </li>
+                <li>Passons aux propriétés ainsi qu'aux valeurs.<br>La propriété en CSS c'est simplement la chose que
+                    nous voulons modifier sur notre élément, la couleur par exemple (color en CSS),
+                    ou même la taille (font-size) et plus encore<br>Et la valeur CSS c'est la façon dont nous voulons
+                    modifier cette propriété, pour la couleur par exemple nous mettrons le rouge ( color : red; )
+                </li>
+            </ul>
+            </p>
+            <img src="images/image_1.png" alt="Image">
+        </div>
+    </div>
+</div>
+</body>
+<a id="toTop" href="#home"><i class="fas fa-arrow-up"></i></a>
+</html>
